@@ -478,6 +478,7 @@ h3 {
 .button {
   border-radius: 2px;
   padding: 1.25em 1em;
+  font-family: Roboto, sans-serif;
   font-size: 0.75rem;
   line-height: 1;
   letter-spacing: 0.125em;
@@ -730,7 +731,6 @@ input[type="text"]:focus {
   border: 1px solid #a9842d;
   background-color: rgba(250, 240, 234, 0.025);
   background-color: #a9842d;
-  /* color: #805e0e; */
 }
 /* Footer */
 .footer {
