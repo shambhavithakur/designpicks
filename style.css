@@ -119,6 +119,8 @@ h3 {
   width: 36px;
   height: 31px;
   position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
   left: 0;
   background: url(images/logo-small.png) center center/contain no-repeat;
   content: "";
@@ -712,6 +714,14 @@ input[type="text"] {
   padding: 1.25em 1em;
   margin-bottom: 1em;
   background: transparent;
+  color: inherit;
+  font-family: inherit;
+}
+@media (min-width: 48em) {
+  input[type="email"],
+  input[type="text"] {
+    font-size: 0.825rem;
+  }
 }
 input[type="email"]:focus,
 input[type="text"]:focus {
@@ -724,6 +734,11 @@ input[type="text"]:focus {
   border: 1px solid #805e0e;
   background-color: #805e0e;
   color: #fff;
+}
+@media (min-width: 48em) {
+  .button--form {
+    margin-top: 1em;
+  }
 }
 .button--form:focus,
 .button--form:hover,
